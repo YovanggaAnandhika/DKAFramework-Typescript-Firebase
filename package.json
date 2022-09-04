@@ -1,0 +1,25 @@
+{
+  "name": "@dkaframework/firebase",
+  "version": "1.0.5",
+  "author": "Yovangga Anandhika",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev-test": "nodemon --watch src --exec ts-node test/index.ts",
+    "build": "tsc --build"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.182",
+    "firebase": "^9.9.4",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.37",
+    "types": "^0.1.1",
+    "typescript": "^4.7.4",
+    "winston": "^3.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1"
+  }
+}
